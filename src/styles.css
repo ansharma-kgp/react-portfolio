@@ -1,0 +1,246 @@
+/*Global styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+}
+
+h1, h2, h3, h4, a, p{
+    text-decoration: none;
+}
+h1, h2, h3, h4, p, div{
+    color: rgb(145, 245, 232);
+}
+/*home*/
+.start{
+    height:800px;
+}
+.picture{
+    display: block;
+    margin: 10% 5%;
+    margin-top: 100px;
+    width: 70%;
+    transform: /*rotate(45deg)*/ none;
+    overflow:hidden;
+    z-index: -3;
+}
+.picture img{
+    float: right;
+    max-width: 100%;/* 
+    transform: rotate(-45deg) scale(1); */
+    transform:none;
+    border-radius: 50%;
+}
+.start{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.desc{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:3%;
+    margin-top:12%;
+    z-index: -3;
+    font-size:xx-large;;
+    width:100%;
+}
+@media screen and (max-width: 900px){
+    .start{
+        display: block;
+    }
+    .picture{
+        display:inline-block;
+        margin: auto;
+        margin-top: 20px;
+        width: 75%;
+        left: 5%;
+        transform:none;
+        position:relative;
+        align-self: center;
+        
+    }
+    .picture img{
+        transform: none;
+        border-radius: 50%;
+        max-width:75%;
+    }
+    .desc{
+        font-size:large;
+        text-align: center;
+        line-height: 35px;
+    }
+}
+/*Achievements section*/
+.starta{
+    align-self:center;
+    width:100%;
+    background-color:aquamarine;
+    padding:0;
+    padding-top:10px;
+}
+.ach{
+    color:black;
+    width:50%;
+    background-color:aquamarine;
+    font-size:x-large;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    margin-top: 0;
+    min-height:280px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:80px;
+    
+}
+.ach h1{
+    text-decoration:dotted underline;
+    color:black;
+}
+.ach ul{
+    list-style-type:none;
+}
+.ach ul em{
+    text-decoration:underline;
+    line-height:30px;
+}
+.starta img{
+    margin:10% 0;
+    margin-left:0;
+    padding-left:0;
+    height:fit-content;
+    width:15%;
+    height:10%;
+    float:left;
+    margin-left: 3%;
+
+}
+.starta img:hover{
+    width:17%;
+    height: 17%;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 900px){
+    .starta img{
+    display:none
+    }
+    .ach{
+        font-size:large;
+        line-height:50px;
+        width: 90%;
+        
+    }
+}
+
+/*skills*/
+#Skills h1{
+    text-align: center;
+
+}
+.skills{
+    display:grid;
+    text-decoration: underline;
+    grid-template-columns: 40px 40px 40px;
+    row-gap:30px;
+    justify-content:space-evenly;
+}
+#Skills{
+    font-size:xx-large;
+    width:100%;
+}
+.skills div:hover{
+    color:white;
+    text-decoration:solid white underline;
+}
+@media screen and (max-width: 900px){
+    .skills{
+        grid-template-columns: 90px 90px;
+        row-gap: 40px;
+    }
+    #Skills{
+        font-size: x-large;
+    }
+}
+
+/*projects*/
+.proj{
+    width: 35%;
+    font-size: x-large;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+} 
+#Projects{
+    text-align: center;
+    font-size: xx-large;
+}
+.project{
+    max-width:80%;
+}
+.josaatext a, p{
+    color:black;
+    font-size: large;
+    text-align: left;
+}
+.josaatext a{
+    font-weight: 1000;
+    font-size: larger;
+}
+.project {
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+    background-color:aquamarine;
+    color:black;
+    border-radius:5px;
+}
+.project:hover {
+    box-shadow: 0 16px 24px 0 white;
+}
+.josaatext {
+    padding: 2px 16px;
+    color:black;
+}
+.project img{
+    max-width:100%;
+    max-height:50%;
+    padding-top:5%;
+    size: 200px;
+}
+
+@media screen and (max-width: 900px){
+    .proj{
+        width:55%;
+        height:inherit;
+    }
+    
+}
+/*footer*/
+#Contact{
+    padding-bottom:0;
+    margin-bottom:0;
+    max-height: 60px;
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+    padding:50px;
+    background-color:rgb(84, 80, 80);
+}
+.footer img{
+    height:100px;
+    padding-bottom:20px;
+    transition: 0.3s;
+}
+.footer img:hover{
+    height:80px;
+    transition:0.3s;
+}
