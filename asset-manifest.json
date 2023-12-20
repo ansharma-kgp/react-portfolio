@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3f6a228f.css",
+    "main.js": "/react-portfolio/static/js/main.81411cf2.js",
+    "static/media/insta.png": "/react-portfolio/static/media/insta.80e598d8df0c0a94d580.png",
+    "static/media/profilepic.jpeg": "/react-portfolio/static/media/profilepic.fd8119fb4dfb0bbb358d.jpeg",
+    "static/media/trophi.png": "/react-portfolio/static/media/trophi.b3df6254fecac24016c1.png",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.8b89ce01929a419c5625.png",
+    "static/media/gh.png": "/react-portfolio/static/media/gh.69ffd9cd5a846c976177.png",
+    "static/media/fb.png": "/react-portfolio/static/media/fb.49fb52a8bbcdad48ddcb.png",
+    "static/media/josaa.jpg": "/react-portfolio/static/media/josaa.dde9912f1d6967c0a806.jpg",
+    "static/media/gmail.png": "/react-portfolio/static/media/gmail.d765005ce9d4caa3d69e.png",
+    "static/media/slick.svg": "/react-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-portfolio/index.html",
+    "main.3f6a228f.css.map": "/react-portfolio/static/css/main.3f6a228f.css.map",
+    "main.81411cf2.js.map": "/react-portfolio/static/js/main.81411cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f6a228f.css",
+    "static/js/main.81411cf2.js"
+  ]
+}
